@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # CourseraPortfolio by Brian
 
@@ -22,3 +23,7 @@ To run locally:
 ## License
 
 This portfolio is © 2025. All rights reserved.
+=======
+# CourseraPortfolio
+This is the portfolio repository for the copilot-generated portfolio application for Coursera
+>>>>>>> be8ecaefab0c4bd8c0f7d0a2ef623d747048f347

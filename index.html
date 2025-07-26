@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Portfolio of a software engineer specializing in SCADA, C++, C#, .NET, React, SQL, and full stack development." />
+    <meta name="keywords" content="SCADA, software engineer, C++, C#, .NET, React, SQL, full stack, portfolio, web development" />
+    <meta name="author" content="Your Name" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Removed Vite icon -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SCADA Software Engineer Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to the SCADA Software Engineer Web Page</h1>
+      <nav role="navigation" id="main-nav">
+        <button class="hamburger" id="hamburger-menu" tabindex="0" aria-label="Open navigation menu" aria-controls="main-nav-list" aria-expanded="false" type="button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul id="main-nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="about-me" role="region" aria-labelledby="about-me-heading">
+      <h2 id="about-me-heading">About Me</h2>
+      <ul class="about-checklist">
+        <li>Results-driven Senior Software Engineer with 20 years of SCADA systems, industrial automation, and technical full-stack development, leveraging expertise in C#, C++ and GraphQL.</li>
+        <li>Demonstrates leadership in agile environments, having served as a SCRUM master and team lead, with a proven ability to guide cross-functional teams and deliver high-quality software solutions.</li>
+        <li>Adept at designing scalable architectures and implementing robust, test-driven solutions across diverse platforms and protocols.</li>
+        <li>Brings an understanding of industrial instrumentation and telecommunications, supported by hands-on experience with many industrial protocols like Modbus, DNP, and MQTT.</li>
+        <li>Served in multiple roles to resolve customer issues and increase customer satisfaction.</li>
+      </ul>
+      <!-- Removed Vite/React root div -->
+    </section>
+    <section id="contact" role="form" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <form>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    <section id="skills" role="region" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+      <ul>
+        <li><span class="skill-icon" title="Leadership">👥</span>Team Leadership with Agile and SCRUM master experience</li>
+        <li><span class="skill-icon" title="Support">🧑‍💼</span>Customer support background</li>
+        <li><span class="skill-icon" title="Programming">💻</span>Programming languages: System Development using C#/VB.NET/ASP.NET, C++, GraphQL, Java</li>
+        <li><span class="skill-icon" title="OOAD">🧩</span>Test driver object-oriented analysis and design with full stack development</li>
+        <li><span class="skill-icon" title="Databases">�️</span>Databases: SQL Server, Sybase, MySql, Oracle, PostgresSQL, MongoDB, Redis</li>
+        <li><span class="skill-icon" title="Databases" style="display:inline-flex;align-items:center;"><svg width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="6" rx="8" ry="3" fill="#0078d4"/><rect x="4" y="6" width="16" height="12" rx="8" fill="#e3e9f7" stroke="#0078d4" stroke-width="1.5"/><ellipse cx="12" cy="18" rx="8" ry="3" fill="#0078d4"/></svg></span>Databases: SQL Server, Sybase, MySql, Oracle, PostgresSQL, MongoDB, Redis</li>
+        <li><span class="skill-icon" title="CI/CD">🔧</span>CI/CD – CruiseControl, Azure DevOps, Version Control</li>
+        <li><span class="skill-icon" title="API" style="display:inline-flex;align-items:center;"><svg width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" fill="#e3e9f7" stroke="#0078d4" stroke-width="2"/><path d="M2 12h20M12 2a15 15 0 010 20M12 2a15 15 0 000 20" stroke="#0078d4" stroke-width="1.5" fill="none"/></svg></span>REST API development with ASP.NET Core</li>
+        <li><span class="skill-icon" title="Industry">🏭</span>Industry-specific technologies: SCADA, OASys, PLC programming (IEC 61131-3), RTU, SCADA HMI, Protocols (Modbus, Profibus, DNP, GE Genius), MQTT</li>
+      </ul>
+    </section>
+    <section id="projects" role="region" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <div id="projects-filter" style="margin-bottom:1.5em;">
+        <label for="projects-category-filter" style="font-weight:600;margin-right:0.7em;">Filter:</label>
+        <select id="projects-category-filter" style="font-size:1em;padding:0.3em 1em;border-radius:6px;">
+          <option value="all">All</option>
+          <option value="viewers">Viewers</option>
+          <option value="dashboard">Dashboard</option>
+          <option value="alarms">Alarms</option>
+          <option value="historian">Historian</option>
+          <option value="remote">Remote</option>
+          <option value="training">Training</option>
+        </select>
+      </div>
+      <div class="projects-cards">
+        <article data-category="viewers dashboard">
+          <figure>
+            <figcaption><strong>Project 1: SCADA Dashboard</strong></figcaption>
+            <p>A modern dashboard for real-time SCADA data visualization. (Placeholder description)</p>
+            <div style="margin-top:1.5em; text-align:center;">
+              <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f5a5.svg" alt="Dashboard Icon" style="height:38px;cursor:pointer;" loading="lazy" class="project-thumb" data-large-img="https://www.scadacore.com/wp-content/uploads/live/partner-live-dashboard-with-hmi-monitor-1024x768.png" />
+            </div>
+          </figure>
+        </article>
+        <article data-category="viewers alarms">
+          <figure>
+            <figcaption><strong>Project 2: Alarm Management System</strong></figcaption>
+            <p>Tool for managing and analyzing industrial alarms. (Placeholder description)</p>
+            <div style="margin-top:1.5em; text-align:center;">
+              <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f6a8.svg" alt="Alarm Icon" style="height:38px;cursor:pointer;" loading="lazy" class="project-thumb" data-large-img="https://www.researchgate.net/profile/Rajagopalan-Srinivasan-3/publication/3248306/figure/fig3/AS:669084870000664@1536533672882/The-Intelligent-Alarm-Management-System-simulation-versus-application-The-same-IAMS.png" />
+            </div>
+          </figure>
+        </article>
+        <article data-category="viewers historian">
+          <figure>
+            <figcaption><strong>Project 3: Historian Data Viewer</strong></figcaption>
+            <p>Web app for browsing and trending historical process data. (Placeholder description)</p>
+            <div style="margin-top:1.5em; text-align:center;">
+              <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f4c8.svg" alt="Chart Icon" style="height:38px;cursor:pointer;" loading="lazy" class="project-thumb" data-large-img="https://www.hanarasoft.com/wp-content/uploads/2020/01/Trend-600x336.png" />
+            </div>
+          </figure>
+        </article>
+        <article data-category="remote">
+          <figure>
+            <figcaption><strong>Project 4: Remote Monitoring Portal</strong></figcaption>
+            <p>Portal for secure remote access to plant data. (Placeholder description)</p>
+            <div style="margin-top:1.5em; text-align:center;">
+              <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f4f6.svg" alt="Remote Icon" style="height:38px;cursor:pointer;" loading="lazy" class="project-thumb" data-large-img="https://inventia.online/wp-content/uploads/2021/01/dataportal-szary.jpg" />
+            </div>
+          </figure>
+        </article>
+        <article data-category="training">
+          <figure>
+            <figcaption><strong>Project 5: Full Stack Training App</strong></figcaption>
+            <p>Sample app for learning full stack development. (Placeholder description)</p>
+            <div style="margin-top:1.5em; text-align:center;">
+              <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f393.svg" alt="Training Icon" style="height:38px;cursor:pointer;" loading="lazy" class="project-thumb" data-large-img="https://www.interviewbit.com/blog/wp-content/uploads/2022/05/FULL-STACK-1.png" />
+            </div>
+          </figure>
+        </article>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2025 CourseraPortfolio. All rights reserved.</p>
+    </footer>
+    <!-- Lightbox modal for project images -->
+    <div id="lightbox-modal" style="display:none;position:fixed;z-index:2000;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,0.85);justify-content:center;align-items:center;">
+      <span id="lightbox-close" style="position:absolute;top:2em;right:2em;font-size:2.5em;color:#fff;cursor:pointer;z-index:2010;">&times;</span>
+      <img id="lightbox-img" src="" alt="Project Image" style="max-width:90vw;max-height:80vh;border-radius:12px;box-shadow:0 8px 32px rgba(0,0,0,0.25);background:#fff;" />
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
